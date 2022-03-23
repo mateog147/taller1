@@ -9,10 +9,15 @@ public class Fruta {
         return colors;
     }
     public void setColors(ArrayList<String> colors) {
-        this.colors = colors;
+        if(colors.size() > 0){
+            this.colors = colors;
+        }else{
+            System.out.println("El arreglo de colores no debe estar vacío");
+        }
     }
     public float getAverageWeight() {
-        return averageWeight;
+        System.out.println("El peso promedio es: " + Float.toString(averageWeight) + " g");
+        return this.averageWeight;
     }
     public void setAverageWeight(float averageWeight) {
         this.averageWeight = averageWeight;
