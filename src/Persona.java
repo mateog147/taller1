@@ -6,12 +6,16 @@ public class Persona {
     public String lastName2;
     public Date dateBirth;
     public float height;
-    
+
     public String getName() {
-        return name;
+        return "Nombre: " + name;
     }
     public void setName(String name) {
-        this.name = name;
+        if(name.equals("") || name.isEmpty()){
+            System.out.println("El nombre debe contener por lo menos un caracter");
+        }else{
+            this.name = name;
+        }
     }
 
     
