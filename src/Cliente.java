@@ -11,8 +11,13 @@ public class Cliente extends Persona{
         this.account = new CuentaAhorros(amount);
     }
 
-    public String getAccount() {
-        return account.toString();
+    public void printAccount() {
+        System.out.println(account.toString()); 
     }
+
+    public CuentaAhorros getAccount() {
+        return account;
+    }
+    
 
 }

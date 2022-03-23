@@ -6,7 +6,8 @@ public class Manzana extends Fruta{
 
     public Manzana(boolean mature) {
         super();
-        ArrayList<String> appleColors = new ArrayList<>(Arrays.asList("Red", "Green"));
+        ArrayList<String> appleColors = new ArrayList<>(Arrays.asList("Rojo", "Verde"));
+        this.name = "Manzana";
         this.mature = mature;
         this.colors = appleColors;
         this.setAverageWeight(200);

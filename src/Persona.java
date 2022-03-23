@@ -8,7 +8,7 @@ public class Persona {
     public float height;
 
     public String getName() {
-        return "Nombre: " + name;
+        return "Nombre: " + name +" " + lastName1 + " "+  lastName2;
     }
     public void setName(String name) {
         if(name.equals("") || name.isEmpty()){
