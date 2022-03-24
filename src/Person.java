@@ -3,7 +3,7 @@ import java.util.Date;
 /**
  * Descripción: La clase persona describe los atributos basicos de una persona, nombres apellidos, fecha de nacimiento y altura.
  */
-public class Persona {
+public class Person {
     public String name;
     public String lastName1;
     public String lastName2;

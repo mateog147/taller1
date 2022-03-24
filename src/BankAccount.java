@@ -1,7 +1,7 @@
     /**
      * Descripción: clase que contiene los datos basicos de una cuenta bancaria.
      */
-public class CuentaBancaria {
+public class BankAccount {
     private static int id = 0;
     private int accountNumber;
     protected boolean activated;
@@ -9,7 +9,7 @@ public class CuentaBancaria {
     /**
      * Descripción: Constructor asigan un ID a la cuenta y por defecto la genera activa.
      */
-    public CuentaBancaria() {
+    public BankAccount(){
         /**
          * Id es el contador que asugnando numero a las cuentas de manera incremental.
          */

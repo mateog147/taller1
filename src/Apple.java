@@ -3,14 +3,14 @@ import java.util.Arrays;
 /**
  * Descripción: la clase Manzana hereda de Fruta y tiene como atributo mature que define si esta maduro o no. 
  */
-public class Manzana extends Fruta{
+public class Apple extends Fruit{
     private boolean mature;
 
     /**
      * Descripción: Constructor de manzana, debe suministrar el valor boolean mature. por defecto se asigna el atributo name como Manzana y los colores posibles en rojo y verde.
      * @param mature atirbuto boleano para saber si la manzana esta madura. True para maduro.
      */
-    public Manzana(boolean mature) {
+    public Apple(boolean mature) {
         super();
         ArrayList<String> appleColors = new ArrayList<>(Arrays.asList("Rojo", "Verde"));
         this.name = "Manzana";

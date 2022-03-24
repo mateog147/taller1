@@ -1,13 +1,13 @@
 /**
  * Descripción: Clase que hereda de Cuenta Bancaria y agrega el atributo balance.
  */
-public class CuentaAhorros extends CuentaBancaria{
+public class SavingsAccount extends BankAccount{
     private double balance;
 
     /**
      * Descripción: metodo constructor que inicializa el atributo balance en 0
      */
-    public CuentaAhorros() {
+    public SavingsAccount() {
         super();
         this.balance = 0;
     }
@@ -16,7 +16,7 @@ public class CuentaAhorros extends CuentaBancaria{
      * Descripción: metodo constructor que inicializa el atributo balance en segun el valor pasado por parametro
      * @param balance double monto inical de la cuenta.
      */
-    public CuentaAhorros(double balance) {
+    public SavingsAccount(double balance) {
         this.balance = balance;
     }
 

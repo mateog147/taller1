@@ -3,7 +3,7 @@ import java.util.ArrayList;
 /**
  * Descripción: Representa aspectos generales de las frutas como nombre, peso promedio y posibles colores.
  */
-public class Fruta {
+public class Fruit {
     public String name;
     private float averageWeight;
     public ArrayList<String> colors;

@@ -1,24 +1,24 @@
 /**
  * Descripción: Clase que extiende a persona y da la carateristica de ser un cliente bancario con una cuenta de ahorros.
  */
-public class Cliente extends Persona{
-    private CuentaAhorros account;
+public class Client extends Person{
+    private SavingsAccount account;
 
     /**
      * Descripción: Metodo constructor, crea la cuenta de ahorro con saldo 0.
      */
-    public Cliente() {
+    public Client() {
         super();
-        this.account = new CuentaAhorros();
+        this.account = new SavingsAccount();
     }
     
     /**
      * Descripción: Metodo constructor, crea la cuenta de ahorro con saldo amount.
      * @param amount valor double que representa el saldo inicial de la cuenta.
      */
-    public Cliente(double amount) {
+    public Client(double amount) {
         super();
-        this.account = new CuentaAhorros(amount);
+        this.account = new SavingsAccount(amount);
     }
 
     
@@ -32,7 +32,7 @@ public class Cliente extends Persona{
      * Descripción: Metodo que retorna la instancia de CuentaAhorro asociada al objeto CLiente.
      * @return CuentaAhorros. 
      */
-    public CuentaAhorros getAccount() {
+    public SavingsAccount getAccount() {
         return account;
     }
     

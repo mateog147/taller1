@@ -1,18 +1,23 @@
-## Getting Started
+## Taller de objetos en Java - Mateo Gutiérrez Medina
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+En espera del comienzo del Training League de mayo en SofkaU se me pidio comenzar con el curso de Cantera 2. Este es el primer taller practico.
 
-## Folder Structure
+## Desafío:
 
-The workspace contains two folders by default, where:
+El reto de este taller tenía 6 Items:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `1`. Realizar las clases de 3 diagramas entregados, Persona, Fruta y CuentaBancaria.
+- `2`. Aparte de las 3 clases, usted debe proponer otras 3 clases donde mezcle tanto atributos públicos, como privados y protegidos
+- `3`. En las 3 clases que usted propone, también debe mezclar métodos tanto públicos, como privados y protegidos.
+- `4`. Las 6 clases deben estar en un archivo independiente y cada clase debe ser debidamente documentada.
+- `5`. El nombre de las clases, atributos y métodos, por favor en total inglés.
+- `6`. El taller debe ser puesto en un repositorio en GitHub de su propiedad. No olvide crear el archivo README.md explicando qué está entregando.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Solución:
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Adicional a las 3 clases del punto 1, que son Persona, Fruta y CuentaBancaria, realicé las clases Cliente, Manzana y CuentaAhorros las cuales heredan de las primeras 3 en ese mismo orden.
+- Las clases que tenian metodos Get y Set pata atributos publicos, procure que esos metodos tengan alguna funcionalidad adicional a solo retornar el atributo. 
+- En la clase cliente se usa como atributo una cuenta de ahorros.
+- La clase App tiene el metodo Main en el cual se crean las instancias de las 3 sub clases y se prueban algunos de sus metodos. 
+- Cada clase esta documentada en español.

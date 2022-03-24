@@ -6,7 +6,7 @@ import java.util.Calendar;
 public class App {
     public static void main(String[] args) throws Exception {
         //prueba de la clase Cliente, que hereda de persona y tiene como atributo una instancia de la Clase cuenta de Ahorros.
-        Cliente client1 = new Cliente();
+        Client client1 = new Client();
         client1.setName("Pedro");
         client1.lastName1 = "Perez";
         client1.lastName2 = "Pino";
@@ -24,7 +24,7 @@ public class App {
         client1.printAccount();
         
         //prueba clase Manzana que hereda de Fruta
-        Manzana apple = new Manzana(true);
+        Apple apple = new Apple(true);
         System.out.println("Fruta: " + apple.name);
         System.out.println("Colores posibles: " + apple.getColors());
     }
